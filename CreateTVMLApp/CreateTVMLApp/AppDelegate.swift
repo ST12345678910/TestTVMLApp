@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     func executeRemoteMethod(_ methodName: String, completion: @escaping (Bool) -> Void) {
         appController?.evaluate(inJavaScriptContext: { (context: JSContext) in
-            let appObject : JSValue = context.objectForKeyedSubscript("App")
+            let appObject: JSValue = context.objectForKeyedSubscript("App")
             
             if appObject.hasProperty(methodName) {
                 appObject.invokeMethod(methodName, withArguments: [])
