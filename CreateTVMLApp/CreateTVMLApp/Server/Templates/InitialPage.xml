@@ -25,7 +25,7 @@
         <background>
             <img src="http://localhost:9001/Server/Images/marek-piwnicki-Srma7hxGRw4-unsplash.jpg" />
         </background>
-        <banner>
+        <banner style="background-color:rgba(0,0,255,0.3)">
             <title>TVML Sample Project - Shaun T</title>
             <row>
                 <button>
