@@ -28,7 +28,7 @@
         <banner style="background-color:rgba(0,0,255,0.3)">
             <title>TVML Sample Project - Shaun T</title>
             <row>
-                <button onselect="getDocument('/Templates/PageOne.xml')">
+                <button onselect="getDocument('/Templates/AboutPage.xml')">
                     <text>Slideshow</text>
                 </button>
                 <button>
