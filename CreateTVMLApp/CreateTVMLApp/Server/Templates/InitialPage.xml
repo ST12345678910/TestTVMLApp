@@ -38,10 +38,12 @@
                 <lockup onselect="getDocument('/Templates/PageOne.xml')">
                     <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg"/>
                     <title>Content 1</title>
+                    <description>sample description</description>
                 </lockup>
                 <lockup onselect="getDocument('/Templates/PageTwo.xml')">
                     <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg" />
                     <title>Content 2</title>
+                    <description>sample description</description>
                 </lockup>
             </section>
         </carousel>
