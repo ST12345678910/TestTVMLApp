@@ -11,13 +11,13 @@
                 </button>
             </row>
         </banner>
-        
-        <section> 
-        <lockup>
+        <carousel>
+            <section>
+                <lockup>
                     <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg"/>
-                    <title>Test About</title>
+                    <title>About</title>
                 </lockup>
-        </section>
-       
+            </section>
+        </carousel>
     </showcaseTemplate>
 </document>
