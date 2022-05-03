@@ -23,7 +23,7 @@
 <document>
     <showcaseTemplate mode="showcase">
         <background>
-            <img src="http://localhost:9001/Server/Images/Car_Movie_1920x1080.png" />
+            <img src="http://localhost:9001/Server/Images/marek-piwnicki-Srma7hxGRw4-unsplash.jpg" />
         </background>
         <banner>
             <title>TVML Sample Project - Shaun T</title>
@@ -40,11 +40,11 @@
             <section>
                 <lockup onselect="getDocument('/Templates/PageOne.xml')">
                     <img src="http://localhost:9001/Server/Images/Car_Movie_453x255_C.png" width="453" height="255" />
-                    <title>Scene 1</title>
+                    <title>Content 1</title>
                 </lockup>
                 <lockup onselect="getDocument('/Templates/PageTwo.xml')">
                     <img src="http://localhost:9001/Server/Images/Car_Movie_500x600.png" width="500" height="600" />
-                    <title>Scene 2</title>
+                    <title>Content 2</title>
                 </lockup>
             </section>
         </carousel>
