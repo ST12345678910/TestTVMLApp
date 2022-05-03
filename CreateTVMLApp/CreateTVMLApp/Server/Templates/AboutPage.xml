@@ -1,6 +1,15 @@
 <document>
-    <alertTemplate>
-        <title>About</title>
-        <description>This is a simple test TVML application</description>
-    </alertTemplate>
+    <showcaseTemplate mode="showcase">
+        <background>
+            <img src="http://localhost:9001/Server/Images/marek-piwnicki-Srma7hxGRw4-unsplash.jpg" />
+        </background>
+        <banner style="background-color:rgba(0,0,255,0.3)">
+            <title>TVML Sample Project - Shaun T</title>
+            <row>
+                <button onselect="getDocument('/Templates/InitialPage.xml')">
+                    <text>Home</text>
+                </button>
+            </row>
+        </banner>
+    </showcaseTemplate>
 </document>
