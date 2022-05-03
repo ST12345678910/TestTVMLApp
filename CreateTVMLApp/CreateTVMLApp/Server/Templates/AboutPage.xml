@@ -1,0 +1,6 @@
+<document>
+    <alertTemplate>
+        <title>About</title>
+        <description>This is a simple test TVML application</description>
+    </alertTemplate>
+</document>
