@@ -16,6 +16,7 @@
                 <lockup>
                     <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg"/>
                     <title>About</title>
+                    <description>test content</description>
                 </lockup>
             </section>
         </carousel>
