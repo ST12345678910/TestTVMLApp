@@ -11,6 +11,9 @@
                 </button>
             </row>
         </banner>
-        <description>A basic sample TVML application...</description>
+        <lockup>
+                    <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg"/>
+                    <title>Test About</title>
+                </lockup>
     </showcaseTemplate>
 </document>
