@@ -11,5 +11,6 @@
                 </button>
             </row>
         </banner>
+        <description>A basic sample TVML application...</description>
     </showcaseTemplate>
 </document>
