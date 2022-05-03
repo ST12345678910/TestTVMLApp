@@ -19,7 +19,7 @@
         </collectionList>
     </stackTemplate>
 </document> -->
-
+CreateTVMLApp/CreateTVMLApp/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg
 <document>
     <showcaseTemplate mode="showcase">
         <background>
@@ -29,21 +29,18 @@
             <title>TVML Sample Project - Shaun T</title>
             <row>
                 <button onselect="getDocument('/Templates/AboutPage.xml')">
-                    <text>Slideshow</text>
-                </button>
-                <button>
-                    <text>Screensaver</text>
+                    <text>About</text>
                 </button>
             </row>
         </banner>
         <carousel>
             <section>
                 <lockup onselect="getDocument('/Templates/PageOne.xml')">
-                    <img src="http://localhost:9001/Server/Images/Car_Movie_453x255_C.png" width="453" height="255" />
+                    <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg"/>
                     <title>Content 1</title>
                 </lockup>
                 <lockup onselect="getDocument('/Templates/PageTwo.xml')">
-                    <img src="http://localhost:9001/Server/Images/Car_Movie_500x600.png" width="500" height="600" />
+                    <img src="http://localhost:9001/Server/Images/markus-spiske-C7p0zjqCWSk-unsplash.jpg" />
                     <title>Content 2</title>
                 </lockup>
             </section>
