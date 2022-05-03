@@ -1,4 +1,4 @@
-<document>
+<!-- <document>
     <stackTemplate>
         <banner>
             <title>Test TVML Project</title>
@@ -18,4 +18,35 @@
             </shelf>
         </collectionList>
     </stackTemplate>
+</document> -->
+
+<document>
+    <showcaseTemplate mode="showcase">
+        <background>
+            <img src="http://localhost:9001/Server/Images/Car_Movie_1920x1080.png" />
+        </background>
+        <banner>
+            <title>Scenes</title>
+            <row>
+                <button>
+                    <text>Slideshow</text>
+                </button>
+                <button>
+                    <text>Screensaver</text>
+                </button>
+            </row>
+        </banner>
+        <carousel>
+            <section>
+                <lockup onselect="getDocument('/Templates/PageOne.xml')">
+                    <img src="http://localhost:9001/Server/Images/Car_Movie_453x255_C.png" width="453" height="255" />
+                    <title>Scene 1</title>
+                </lockup>
+                <lockup onselect="getDocument('/Templates/PageTwo.xml')">
+                    <img src="http://localhost:9001/Server/Images/Car_Movie_500x600.png" width="500" height="600" />
+                    <title>Scene 2</title>
+                </lockup>
+            </section>
+        </carousel>
+    </showcaseTemplate>
 </document>
